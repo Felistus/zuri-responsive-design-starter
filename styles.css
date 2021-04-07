@@ -100,7 +100,7 @@ div.background {
 }
 
 div.background h4 {
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     color: #555657;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -339,6 +339,41 @@ div.footer h6 {
 
 /* media query */
 @media screen and (min-width: 800px) {
+    div.hero-section {
+        padding: 10rem;
+    }
+    div.hero-content-heading h3 {
+        font-size: 2rem;
+    }
+    div.hero-content-heading p {
+        text-align: center;
+    }
+    div.hero-background {
+        padding: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: unset;
+    }
+    div.background {
+        padding: 15px 40px;
+        width: 550px;
+        height: 220px;
+    }
+    div.background h4 {
+        font-size: 1rem;
+    }
+    div.background p {
+        padding: 0 2rem;
+        letter-spacing: 1.5px;
+        text-align: unset;
+    }
+    div.hero-background-pos {
+        left: 72%;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1000px) {
     div.nav-bar {
         display: flex;
         justify-content: space-between;
@@ -381,7 +416,7 @@ div.footer h6 {
         font-size: 1rem;
     }
     div.background p {
-        padding-left: 2rem;
+        padding: 0 2rem;
         letter-spacing: 2px;
         text-align: unset;
     }
